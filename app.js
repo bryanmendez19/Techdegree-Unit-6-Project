@@ -101,7 +101,6 @@ function checkWin() {
         overlay.innerHTML = '<h2>you lost!</h2>';
 
     }
-
 }
 
 
@@ -121,11 +120,6 @@ qwerty.addEventListener('click', (event) => {
         checkWin();
     }
 });
-
-
-
-
-
 
 const gamePhrase = getRandomPhraseAsArray(phrases);
 addPhraseToDisplay(gamePhrase);
